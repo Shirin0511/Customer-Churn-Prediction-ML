@@ -1,6 +1,4 @@
-# Customer Churn Prediction  
-## Machine Learning Classification with Explainability (SHAP)
-
+# Customer Churn Prediction Machine Learning Classification with Explainability (SHAP)
 
 ## Project Overview
 This project was built to predict whether a customer is likely to churn and, more importantly, to explain **why** a customer is predicted to churn using **SHAP (SHapley Additive exPlanations)**.
