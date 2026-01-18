@@ -22,12 +22,12 @@ The outcome enables **data-driven retention strategies** rather than relying on 
 
 ## Machine Learning Workflow
 
-### 1. Data Understanding & Cleaning
+#### 1. Data Understanding & Cleaning
 - Analysed customer demographics, service usage, and billing information  
 - Handled missing values and corrected data types  
 - Removed inconsistencies affecting model performance  
 
-### 2. Exploratory Data Analysis (EDA)
+#### 2. Exploratory Data Analysis (EDA)
 - Identified churn patterns across:
   - Contract type  
   - Tenure  
@@ -35,17 +35,17 @@ The outcome enables **data-driven retention strategies** rather than relying on 
   - Payment methods  
 - Visualized churn vs non-churn customer behaviour  
 
-### 3. Feature Engineering & Preprocessing
+#### 3. Feature Engineering & Preprocessing
 - One-hot encoded categorical variables  
 - Scaled numerical features where required  
 - Prepared model-ready datasets  
 
-### 4. Model Training
+#### 4. Model Training
 Implemented and compared:
 - **Logistic Regression** (baseline, interpretable)  
 - **Random Forest Classifier** (non-linear, high performance)  
 
-### 5. Hyperparameter Tuning
+#### 5. Hyperparameter Tuning
 - Used **GridSearchCV**
 - Optimized models for **recall** and **ROC-AUC** to reduce false negatives  
 
@@ -58,7 +58,7 @@ Models were evaluated using metrics suitable for imbalanced datasets:
 - F1-Score  
 - Confusion Matrix  
 
-### Key Insight
+#### Key Insight
 The **Random Forest model** achieved stronger generalization and recall, making it more suitable for churn prediction where missing a churner is costly.
 
 
